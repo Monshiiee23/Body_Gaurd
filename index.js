@@ -6,7 +6,7 @@ const armorManager = require('mineflayer-armor-manager')
 const bot = mineflayer.createBot({
     host: process.argv[2],
     port: process.argv[3],
-    username: process.argv[4] || 'BODY GAURD',
+    username: process.argv[4] || 'username',
     password: process.argv[5],
     logErrors: false
 })
